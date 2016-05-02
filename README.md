@@ -9,4 +9,4 @@ To use the javascript starting point for the shapes kata run the following comma
     npm test
 
 You should see the following output:
-    1 test, 1 assertion, 0 failures, 0 skipped
+    `1 test, 1 assertion, 0 failures, 0 skipped`
