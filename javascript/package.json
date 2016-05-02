@@ -1,0 +1,14 @@
+{
+  "name": "Shape-Kata",
+  "version": "0.0.1",
+  "description": "Shokunin SOLID Shape Kata",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/jasmine-node spec"
+  },
+  "author": "Adam Hope",
+  "license": "ISC",
+  "dependencies": {
+    "jasmine-node": "^1.14.5"
+  }
+}
