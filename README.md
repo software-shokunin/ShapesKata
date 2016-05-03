@@ -8,12 +8,22 @@ cd into this repository
 
 # Ruby
 
-To use the ruby starting point for the shapes kata run the following command to start guard listening for any code changes:
+To use the ruby starting point for the shapes kata run the following command (it will start guard  and listen for any code changes):
 `docker run -it -v "$PWD":/usr/src/app softwareshokunin/solid_ruby`
+
+Otherwise you must:
+
+    cd ruby
+    install ruby 2.3
+    bundle
+    bundle exec guard
 
 # JavaScript
 
-To use the javascript starting point for the shapes kata run the following commands:
+To use the javascript starting point for the shapes kata run the following command (it will run jasmine and watch for any code changes):
+`docker run -it -v "$PWD":/usr/src/app softwareshokunin/solid_js`
+
+Otherwise you must:
 
     cd javascript
     npm install
