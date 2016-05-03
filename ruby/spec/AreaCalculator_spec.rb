@@ -1,5 +1,5 @@
 require "rspec/expectations"
-require_relative "../AreaCalculator.rb"
+require_relative "../src/AreaCalculator.rb"
 
 describe AreaCalculator do
 
